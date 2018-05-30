@@ -1,0 +1,39 @@
+.nav-tabs
+{
+  border: 0;
+  margin-bottom: 2rem;
+  li
+  {
+    margin-right:15px;
+    &.active
+    {
+      a
+      {
+        color: $blue !important;
+        border-bottom:2px solid !important;
+        font-weight: bold;
+      }
+    }
+  }
+  
+  li>a
+  {
+    color: $tab-link-color;
+    text-transform: uppercase;
+    opacity: 0.7;
+    border:0 !important;
+    border-bottom: 2px solid transparent !important;
+    border-bottom:2px solid transparent;
+    box-shadow: none;
+    padding: 3px 0;
+    font-size:0.9em;
+    &:hover, &:focus
+    {
+      color: $blue !important;
+      border-bottom:2px solid !important;
+    }
+  }
+}
+
+
+

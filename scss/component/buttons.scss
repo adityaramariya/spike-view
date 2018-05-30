@@ -1,0 +1,25 @@
+.btn
+{
+  text-transform: uppercase;
+  padding: 10px 30px;
+  font-size: 0.8em;
+  letter-spacing: 0.2px;
+  background-image: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  &.btn-primary
+  {
+    background-color: $blue;
+    border: 0;
+  }
+  &.rounded
+  {
+    border-radius: 19px;
+  }
+  &.centeredBtn
+  {
+    display: block;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,41 @@
+.form-control
+{
+  background-color: $input-bg;
+  border-color: $input-border-color;
+}
+
+.input-group
+{
+  height: $input-height;
+  .form-control
+  {
+    border-left:0;
+    box-shadow: none;
+    padding-left: 0;
+    height: $input-height;
+    &:focus{
+      border-color:$input-border-color;
+      outline: 0;
+      box-shadow: none;
+    }
+  }
+}
+
+.input-group
+{
+  display: flex;
+}
+.input-group-addon
+{
+  background-color: $input-bg;
+  border-color: $input-border-color;
+  color:$icon-color-default;
+  font-size:1.7em;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: $input-height;
+  height: $input-height;;
+  align-items: center;
+  justify-content: center;
+}
