@@ -112,7 +112,8 @@
     font-size: 0.9em; }
     .nav-tabs li > a:hover, .nav-tabs li > a:focus {
       color: #1f86e5 !important;
-      border-bottom: 2px solid !important; }
+      border-bottom: 2px solid !important;
+      background-color: transparent; }
 
 .btn {
   text-transform: uppercase;
@@ -173,7 +174,7 @@
   background-attachment: fixed;
   background-size: cover;
   max-width: 615px;
-  width: 40%;
+  width: 35%;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -279,25 +280,10 @@ body, html {
     max-width: 400px;
     height: 100%;
     margin: auto; }
-    .formContent .loginBox .caret {
-      font-family: 'icomoon' !important;
-      speak: none;
-      font-style: normal;
-      font-weight: normal;
-      font-variant: normal;
-      text-transform: none;
-      line-height: 1;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      width: auto;
-      height: auto;
-      font-size: 1.4em;
-      border: 0; }
-      .formContent .loginBox .caret:before {
-        content: "\e908"; }
   .formContent .signupText {
     display: flex;
     flex-wrap: nowrap;
+    align-items: center;
     margin-bottom: 10px;
     color: #a9b9ca;
     font-size: 0.9em; }
@@ -305,6 +291,22 @@ body, html {
       text-transform: inherit;
       color: #4e5963;
       margin-left: 3px; }
+      .formContent .signupText .btn .caret {
+        font-family: 'icomoon' !important;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        width: auto;
+        height: auto;
+        font-size: 1.2em;
+        border: 0; }
+        .formContent .signupText .btn .caret:before {
+          content: "\e908"; }
   .formContent .forgotPass {
     display: block;
     text-align: right;
