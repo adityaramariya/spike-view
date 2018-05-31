@@ -42,13 +42,18 @@ body, html
 {
   height:auto;
 }
-  .loginBox
+  
+  &.spikeBg
+  {
+    background-image: url('../img/bg.jpg');
+    background-position: top center;
+  }
+  .centeredBox
   {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding:$padding-y * 5;
-    max-width: 400px;
+    width: 400px;
     height: 100%;
     margin: auto;
   }
@@ -99,3 +104,34 @@ body, html
   }
 }
 
+
+.forgotPasswordForm
+{
+  background-color: $white;
+  box-shadow: 0 0 10px #ddd;
+  padding-bottom: 10px;
+  legend
+  {
+    color: $blue;
+    border: 0;
+    font-size:0.9em;
+    text-transform: uppercase;
+  }
+ 
+  .formIcon
+  {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   /* box-shadow: 0px -1px 7px #c9d3dd;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 75px;
+    margin: 0 auto;
+    margin-top: -85px;
+    background: white;
+    margin-bottom: 10px;
+    /* border: 1px solid; */
+  }
+}
